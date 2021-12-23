@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Lucaciu Valentin">
+    <meta name="keywords" content="Gym Power Work">
+    <meta name="description" content="Pink Gym">
+    <title>Pink Gym Cluj</title>
+    <style>
+        li:hover {
+            color: black;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        section {
+            padding-bottom: 40px
+        }
+
+        p {
+            padding-left: 30px
+        }
+
+        h1 {
+            padding-left: 20px;
+        }
+
+        h2 {
+            z-index: 0;
+            color: black;
+            padding: 20px 20px 20px 60px;
+        }
+
+        a {
+            cursor: url('resurse/breast-2.png'), auto
+        }
+
+        .imaginefundal {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6)), url("resurse/athlete-barbell.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .card {
+            width: 20%;
+        }
+        .sociale{
+            width:50px;
+            padding: 30px 10px 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md text-light navbar-dark bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="resurse/workout-machine.png" style="width:80px;">
+                <span style="padding-left:50px; font-size: xx-large;">Pink Gym Cluj</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bara">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="bara">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#desprenoi">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ourstory">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ourteam">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicii">Memberships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--aici o sa fie caruselul-->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!--indicatoare-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+        <!--caruselul fericit-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="resurse/heroimage.jpg" alt="gym" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="resurse/active-activity.jpg" alt="sala" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="resurse/sala.jpg" alt="sport" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="resurse/sala2.jpg" alt="movement" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="resurse/fit-woman.jpg" alt="healthy" class="d-block w-100">
+            </div>
+        </div>
+        <!--gata pozele fericite din caruselul fericit-->
+        <!--butoane minunate-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <!--gata butoane-->
+    </div>
+    <!--aici se termina caruselul-->
+    <div class="imaginefundal">
+        <h1 class="display-3 text-light">Welcome to the Pink Gym</h1>
+    </div>
+    <section class="bg-danger text-light" id="desprenoi">
+        <h2 class="display-3 text-light"> About us</h2>
+        <p class="display-6">
+            Hello and welcome to the change of your life! Our gym is now present in your city and ready to greet you
+            with modern equipment, highly trained personnel and a good time on your road to becoming the person you want
+            to be. We are here, glad to assist you.Why choose our gym? We have invested a great amount of resources of
+            every kind to deliver you a multipractical gym, a great location and the best services you could
+            expect. Our staff is aimed at giving you, the client, the best experience possible while interacting
+            with our gym.
+        </p>
+    </section>
+    <div class="imagini">
+        <img class="img-fluid" src="resurse/appetite-bowl.jpg" alt="life">
+    </div>
+    <section class="bg-danger text-light" id="ourstory">
+        <h2 class="display-3 text-light">Our story</h2>
+        <p class="display-6">
+            Our story begins with a burning passion for a healthy life. Years of studying, taking part in many
+            exchange programs, trainings only so we can share all that we learned. All of the people
+            from our staff have one thing in common: we enjoy helping eachother. This affirmation is valid both
+            internally, on a peer-to-peer level, but also on the trainer-client relationship. Our gym is
+            greeting you with the latest technology in the fitness world, independent locker rooms for the
+            ladies and for the gents, each with its own sauna, an indoor and an outdoor pool, massage rooms and
+            private parking for our clients only. Premium clients only get 24/7 access.
+        </p>
+    </section>
+    <!--Inceput carduri echipa-->
+    <div class="container-fluid" id="ourteam">
+        <h2 class="display-3 text-danger">Our Team</h2>
+        <div class="row text-danger">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <img class="card-img-top" src="resurse/instructor.jpg" alt="manager" style="width:100%">
+                <div class="card-body">
+                    <h3 class="card-title">Răzvan Eremia</h3>
+                    <p class="card-text">Antrenor aerobic</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <img class="card-img-top" src="resurse/antrenor2.jpg" alt="manager" style="width:100%">
+                <div class="card-body">
+                    <h3 class="card-title">Vlad Munteanu</h3>
+                    <p class="card-text">Antrenor TRX si Cycling</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <img class="card-img-top" src="resurse/antrenor3.jpg" alt="manager" style="width:100%">
+                <div class="card-body">
+                    <h3 class="card-title">Andra Măruță</h3>
+                    <p class="card-text">HIIT Trainer</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <img class="card-img-top" src="resurse/flotari.jpg" alt="manager" style="width:100%">
+                <div class="card-body">
+                    <h3 class="card-title">TJ Miles</h3>
+                    <p class="card-text">Manager</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Gata carduri echipa-->
+    <!--Carduri memberships-->
+    <div class="container-fluid" id="servicii">
+        <h2 class="display-3 text-danger">Memberships</h2>
+        <div class="row text-danger">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                <div>
+                    <h3>Standard-Not much</h3>
+                    <ul>
+                        <li>Gym Access</li>
+                        <li>Parking</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                <div>
+                    <h3>Intermediate-Almost a lot</h3>
+                    <ul>
+                        <li>Gym Access</li>
+                        <li>Parking</li>
+                        <li>Assistance from our crew</li>
+                        <li>Sauna Access</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                <div>
+                    <h3>Premium-Damn expensive</h3>
+                    <ul>
+                        <li>24/7 Gym Access</li>
+                        <li>Parking</li>
+                        <li>Pool Access</li>
+                        <li>Sauna Access</li>
+                        <li>Personal training</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Gata carduri memberships-->
+    <footer class="container-fluid bg-dark text-white" id="contact"> 
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-xl-6">
+                <p class="pt-4 pb-4">You can find us on 48 Tulcea street, Cluj-Napoca, Romania, and also on our socials:
+                    <br>
+                    <p class="copyright">&copy 2021, <b>Lucaciu Valentin-Claudiu</b>, <i>All rights reserved</i></p>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6">
+                <a href="https://www.facebook.com/RickAstley">
+                <img class="sociale" src="resurse/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/officialrickastley/">
+                <img class="sociale" src="resurse/instagram.png" alt="instagram">
+                </a>
+                <a href="https://twitter.com/rickastley">
+                <img class="sociale" src="resurse/twitter.png" alt="twitter">
+                </a>
+                <a href="https://ro.linkedin.com">
+                <img class="sociale" src="resurse/linkedin.png" alt="linkedin">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
